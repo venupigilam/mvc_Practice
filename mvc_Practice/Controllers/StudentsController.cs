@@ -9,9 +9,14 @@ namespace mvc_Practice.Controllers
     public class StudentsController : Controller
     {
         // GET: Students
-        public ActionResult Index()
+        //public ActionResult Index()
+        //{
+        //    return View();
+        //}
+
+        public string Index()
         {
-            return View();
+            return "This is Index action method of StudentController";
         }
     }
 }
